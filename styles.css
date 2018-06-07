@@ -1,0 +1,33 @@
+canvas{
+  /* background: red; */
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#background{
+  z-index: -1;
+  opacity: 1;
+}
+@font-face {
+  font-family: 'custom';
+  src: url('Pokemon GB.ttf');
+}
+#instructions{
+  position: absolute;
+  top: 120px;
+  display: block;
+  font-family: 'custom';
+  font-size: 120%;
+  color: white;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+#head{
+  display: block;
+  font-family: 'custom';
+  font-size: 160%;
+  color: white;
+  position: absolute;
+  left: 35vw;
+  top: 20px;
+}
